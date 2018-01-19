@@ -1,5 +1,51 @@
 .body {
+  display: block;
   margin: auto;
-  background-color: red;
+  text-align: center;
+  padding: 50% 0;
+}
 
+.search {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  text-align: center;
+  margin: auto;
+}
+
+.topul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float:right;
+}
+
+.topul li {
+  display:inline;
+}
+
+.bottomull {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.bottomull li {
+  display: inline;
+}
+
+.bottomulr {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.bottomulr li {
+  display: inline;
 }
