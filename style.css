@@ -2,19 +2,35 @@
   display: block;
   margin: auto;
   text-align: center;
-  padding: 50% 0;
+  height: 50%;
+  width: 50%;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 50%;
+  padding-top: 200px;
+  padding-bottom: 30px;
 }
 
 .search {
-  display: block;
-  text-align: center;
   margin: auto;
+  width: 500px;
+  height: 30px;
 }
 
-.button {
+.buttons {
   display: block;
-  text-align: center;
-  margin: auto;
+  padding-top: 30px;
+}
+
+input[type="submit"] {
+text-align: center;
+background-color: #f2f2f2;
+font-family: arial;
+font-size: 13px;
+height: 30px;
 }
 
 .topul {
@@ -22,10 +38,24 @@
   margin: 0;
   padding: 0;
   float:right;
+  font-family: arial;
+  font-size: 15px;
 }
 
 .topul li {
   display:inline;
+  padding: 8px 8px 8px 8px;
+}
+
+button {
+  background-color: #4285f4;
+  color: white;
+  border-radius: 5px;
+}
+
+footer {
+  margin-top: 280px;
+  color: grey;
 }
 
 .bottomull {
@@ -33,6 +63,8 @@
   margin: 0;
   padding: 0;
   float: left;
+  font-family: arial;
+  font-size: 15px;
 }
 
 .bottomull li {
@@ -44,6 +76,8 @@
   margin: 0;
   padding: 0;
   float: right;
+  font-family: arial;
+  font-size: 15px;
 }
 
 .bottomulr li {
